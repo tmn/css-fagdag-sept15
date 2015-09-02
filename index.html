@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>CSS, a first-class citizen</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=792, user-scalable=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" href="shower/themes/ribbon/styles/screen.css">
+	<style>
+	.text-remove {
+		text-decoration: line-through;
+	}
+	</style>
+</head>
+<body class="list">
+
+	<header class="caption">
+		<h1>CSS, a first-class citizen</h1>
+		<p>Tri Nguyen &lt;<a href="mailto:tri.nguyen@bekk.no">tri.nguyen@bekk.no</a>&gt;</p>
+	</header>
+
+	<section class="slide cover" id="Cover"><div>
+		<header>
+			<h2>CSS, a first-class citizen</h2>
+			<p>Tri Nguyen<br><a href="mailto:tri.nguyen@bekk.no">tri.nguyen@bekk.no</a></p>
+			<small>BEKK fagdag, 4. September 2015</small>
+		</header
+		<!--
+			To apply styles to the certain slides
+			set slide ID to get needed elements
+			-->
+		<style>
+		#Cover {
+			background: #222;
+		}
+		#Cover header {
+			position: absolute;
+			top: 60%;
+
+			-webkit-transform: translateY(-40%);
+			   -moz-transform: translateY(-40%);
+			    -ms-transform: translateY(-40%);
+			        transform: translateY(-40%);
+		}
+
+		#Cover h2 {
+			color: #FFF;
+			font-size: 70px;
+			margin-bottom: 20px;
+		}
+
+		#Cover p {
+			color: #FFF;
+			font-style: italic;
+			font-size: 20px;
+			line-height: 26px;
+			border-left: 1px solid #fff;
+			padding-left: 15px;
+			margin-left: 6px;
+			margin-bottom: 25px;
+		}
+
+		#Cover p a {
+			color: rgba(253, 81, 88, 1.0);
+		}
+
+		#Cover small {
+			font-size: 16px;
+			color: #666;
+		}
+
+		</style>
+	</div></section>
+
+	<section class="slide"><div>
+
+	</div></section>
+
+
+	<p class="badge"><a href="https://github.com/tmn/css-fagdag-sept15">Fork me on Github</a></p>
+	<!--
+		To hide progress bar from entire presentation
+		just remove “progress” element.
+		-->
+	<div class="progress"><div></div></div>
+	<script src="shower/shower.min.js"></script>
+	<!-- Copyright © 2014 Yours Truly, Famous Inc. -->
+	<!-- Photos by John Carey, fiftyfootshadows.net -->
+</body>
+</html>
